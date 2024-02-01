@@ -12,7 +12,7 @@ body {
 }
 header {
 	position:relative;
-	height: 280px;
+	height: 580px;
 	background-image: url('./header.jpg');
 	background-repeat: no-repeat;
 	background-position: left top;
