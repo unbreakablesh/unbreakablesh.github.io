@@ -1,3 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>간단한 챗봇</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <style>
+        #chat-container {
+            width: 300px;
+            margin: 20px auto;
+            border: 1px solid #ccc;
+            padding: 10px;
+            height: 300px;
+            overflow-y: scroll;
+        }
+        #input-container {
+            width: 300px;
+            margin: 10px auto;
+            display: flex;
+            flex-direction: column;
+        }
+        #user-input {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+<div id="chat-container"></div>
+
+<script>
+    $(document).ready(function() {
         const chatContainer = $('#chat-container');
         let CATEGORY_STATUS = 1;
         let level1_category = 1;
@@ -288,3 +320,7 @@
 
 
 
+    });
+</script>
+</body>
+</html>
